@@ -1,0 +1,18 @@
+node_modules/
+.next/
+test-results/
+playwright-report/
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+
+.cot-demo/
+
+.next-test/
+.next-build/
+
+# Local environment and macOS metadata; only sanitized examples may be tracked.
+.env
+.env.*
+!.env.example
+.DS_Store

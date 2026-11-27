@@ -1,0 +1,26 @@
+{
+  "name": "cot-player-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test src/mocks/store.test.ts src/mocks/market/*.test.ts src/mocks/resources/*.test.ts src/mocks/economy/*.test.ts src/mocks/persistence/*.test.ts src/mocks/policy/*.test.ts",
+    "test:ui": "playwright test"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "7.0.2"
+  }
+}

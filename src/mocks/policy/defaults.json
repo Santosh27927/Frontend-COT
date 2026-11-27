@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "version": "cot-v5-1",
+  "startingCash": "1000",
+  "walletCaps": {
+    "USD": "2000",
+    "ETC": "350",
+    "SOL": "20",
+    "BTC": null
+  },
+  "constructionSlots": {
+    "1": 20,
+    "2": 20
+  },
+  "conversion": {
+    "sourceValue": "50",
+    "bonusNumerator": 1,
+    "bonusDenominator": 4,
+    "quoteSeconds": 30,
+    "cooldownSeconds": 172800
+  },
+  "construction": {
+    "durationSeconds": 43200,
+    "townHallUsdCost": "100",
+    "etcCostBtc": "0.001",
+    "btcCostEtc": "10",
+    "refundNumerator": 1,
+    "refundDenominator": 2
+  },
+  "production": {
+    "ETC": {
+      "1": {
+        "rate": "1",
+        "capacity": "50"
+      },
+      "2": {
+        "rate": "2",
+        "capacity": "100"
+      }
+    },
+    "BTC": {
+      "1": {
+        "rate": "0.0001",
+        "capacity": "0.005"
+      },
+      "2": {
+        "rate": "0.0002",
+        "capacity": "0.01"
+      }
+    }
+  },
+  "quiz": {
+    "firstCorrect": "5",
+    "laterCorrect": "2.5"
+  },
+  "assistance": {
+    "threshold": "50",
+    "grant": "100",
+    "cadence": {
+      "kind": "unconfigured"
+    }
+  },
+  "marketSeeds": {
+    "ETC": "5.6845",
+    "SOL": "100",
+    "BTC": "58639.405"
+  },
+  "learning": {
+    "durationSeconds": 180,
+    "fillSeconds": 60,
+    "triggerSeconds": 30,
+    "reviewSeconds": 20
+  }
+}

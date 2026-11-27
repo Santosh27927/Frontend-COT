@@ -1,0 +1,17 @@
+{
+  "purpose": "Historical reference for a proposed simulated collector balance; not executable conversion quotes or selected provider configuration",
+  "quotes": [
+    {
+      "symbol": "ETC",
+      "quote": {"data": {"amount": "5.6845", "base": "ETC", "currency": "USD"}},
+      "retrievedAt": "2026-11-25T11:24:40.102484+00:00",
+      "url": "https://api.coinbase.com/v2/prices/ETC-USD/spot"
+    },
+    {
+      "symbol": "BTC",
+      "quote": {"data": {"amount": "58639.405", "base": "BTC", "currency": "USD"}},
+      "retrievedAt": "2026-11-25T11:24:40.103075+00:00",
+      "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
+    }
+  ]
+}
